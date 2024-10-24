@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Zen+Kurenaido&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/background.png);
+}
+#top {
+    position: relative;
+}
+#top img {
+    display: block;
+    width: 100%;
+}
+#menu {
+    position: absolute;
+    width: 100%;
+    max-width: 990px;
+    top: 580px;
+    bottom: 0;
+}
+#menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#menu ul li img {
+    width: 100%;
+    display: block;
+}
+a:hover {
+    opacity: 0.7;
+}
+#wrapper {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
