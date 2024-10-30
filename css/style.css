@@ -18,17 +18,13 @@ body {
     position: absolute;
     width: 100%;
     max-width: 990px;
-    top: 580px;
-    bottom: 0;
+    top: 570px;
 }
 #menu ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-}
-#menu ul li img {
-    width: 100%;
-    display: block;
+    padding: 0 10px;
 }
 a:hover {
     opacity: 0.7;
@@ -37,4 +33,81 @@ a:hover {
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
+}
+#container {
+    background: #c3dfe0;
+    position: relative;
+}
+#container-m {
+    background: #5ebac2;
+    position: relative;
+}
+#desc .name {
+    color: #ffeda8;
+    font-family: "Potta One", serif;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#ea535d;
+    background-color: #5ebac2;
+}
+#desc .name-m {
+    color: #c3dfe0;
+    font-family: "Potta One", serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#4e71c9;
+    background-color: #ffeda8;
+}
+#container .menu {
+    display: flex;
+}
+#container-m .menu-m {
+    display: flex;
+}
+#container .text {
+    padding-left: 20px;
+}
+#container-m .text-m {
+    padding-right: 20px;
+}
+#container h2 {
+    color: #234aa3;
+    font-family: "Zen Kurenaido", serif;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+#container-m h2 {
+    color: white;
+    font-family: "Zen Kurenaido", serif;
+    text-align:justify;
+    font-size: 35px;
+    font-weight: bold;
+}
+#container p {
+    color: #234aa3;
+    font-family: "Zen Kurenaido", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#container-m p {
+    color: white;
+    font-family: "Zen Kurenaido", serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#container .img {
+    position: relative;
+}
+#ticket {
+    background: #5ebac2;
+}
+#ticket img {
+    align-items: center;
+    padding: 35px 35px;
 }
