@@ -34,25 +34,30 @@ a:hover {
     max-width: 990px;
     margin: 0 auto;
 }
-#container {
+#ramen-tamago {
     background: #c3dfe0;
     position: relative;
 }
-#container-m {
+#hirugao-ramen {
     background: #5ebac2;
     position: relative;
 }
-#desc .name {
+#soranoiro-nippon {
+    background: #c3dfe0;
+    position: relative;
+}
+
+#ramen-tamago .name-t {
     color: #ffeda8;
     font-family: "Potta One", serif;
-    text-align: left;
     font-size: 60px;
     font-weight: bold;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color:#ea535d;
     background-color: #5ebac2;
+    padding-left: 10px;
 }
-#desc .name-m {
+#hirugao-ramen .name-m {
     color: #c3dfe0;
     font-family: "Potta One", serif;
     text-align: center;
@@ -62,52 +67,122 @@ a:hover {
     -webkit-text-stroke-color:#4e71c9;
     background-color: #ffeda8;
 }
-#container .menu {
+#soranoiro-nippon .name-b {
+    color: #ffeda8;
+    font-family: "Potta One", serif;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#ea535d;
+    background-color: #5ebac2;
+}
+
+#ramen-tamago .menu-t {
     display: flex;
 }
-#container-m .menu-m {
-    display: flex;
-}
-#container .text {
+#ramen-tamago .text-t {
     padding-left: 20px;
 }
-#container-m .text-m {
-    padding-right: 20px;
-}
-#container h2 {
+#ramen-tamago h2 {
     color: #234aa3;
     font-family: "Zen Kurenaido", serif;
-    text-align: left;
+    text-align: justify;
     font-size: 35px;
+}
+#ramen-tamago p {
+    color: #234aa3;
+    font-family: "Zen Kurenaido", serif;
+    text-align: justify;
+    font-size: 20px;
     font-weight: bold;
 }
-#container-m h2 {
+
+#hirugao-ramen .menu-m {
+    display: flex;
+}
+#hirugao-ramen .text-m {
+    padding-right: 10px;
+}
+#hirugao-ramen h2 {
     color: white;
     font-family: "Zen Kurenaido", serif;
     text-align:justify;
     font-size: 35px;
-    font-weight: bold;
 }
-#container p {
-    color: #234aa3;
-    font-family: "Zen Kurenaido", serif;
-    font-size: 20px;
-    font-weight: bold;
-}
-#container-m p {
+#hirugao-ramen p {
     color: white;
     font-family: "Zen Kurenaido", serif;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     font-weight: bold;
 }
-#container .img {
-    position: relative;
+
+#soranoiro-nippon .menu-b {
+    display: flex;
 }
-#ticket {
+#soranoiro-nippon .text-b {
+    padding-left: 20px;
+}
+#soranoiro-nippon h2 {
+    color: #234aa3;
+    font-family: "Zen Kurenaido", serif;
+    text-align: justify;
+    font-size: 35px;
+}
+#soranoiro-nippon p {
+    color: #234aa3;
+    font-family: "Zen Kurenaido", serif;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bottom .ticket {
     background: #5ebac2;
 }
-#ticket img {
-    align-items: center;
+#bottom img {
+    width: 90%;
     padding: 35px 35px;
+}
+.text-t {
+    width: 65%;
+    padding: 10px 0;
+}
+.img-t {
+    position: relative;
+    width: 25%;
+}
+.img-t img {
+    width: 120%;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+.text-m {
+    width: 60%;
+    padding: 10px 80px 15px;
+}
+.img-m {
+    position: relative;
+    width: 25%;
+}
+.name-m {
+    padding-right: 160px;
+}
+.img-m img {
+    width: 125%;
+    position: absolute;
+    right: -56px;
+    bottom: 10px;
+}
+.himawari {
+    position: relative;
+    width: 25%;
+}
+.himawari img {
+    width: 90%;
+    position: absolute;
+    left: 22px;
+    bottom: 20px;
 }
