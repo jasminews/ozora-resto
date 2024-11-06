@@ -155,8 +155,10 @@ a:hover {
 #bottom img {
     align-items: center;
     justify-content: center;
-    width: 90%;
-    padding: 20px 40px; 
+    width: 100%;
+    padding: 40px 40px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .text-t {
     width: 65%;
@@ -217,4 +219,26 @@ a:hover {
 .text-b {
     width: 65%;
     padding: 10px 0;
+}
+.access {
+    background-color: #c3dfe0;
+    padding: 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.access h2 {
+    color: aliceblue;
+    font-family: "Potta One", serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#234aa3;
+}
+.access p {
+    color: #234aa3;
+    font-family: "Zen Kurenaido", serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
 }
