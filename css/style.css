@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
 body {
     background: url(../img/background.png);
 }
@@ -55,7 +60,6 @@ a:hover {
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color:#ea535d;
     background-color: #5ebac2;
-    padding-left: 10px;
 }
 #hirugao-ramen .name-m {
     color: #c3dfe0;
@@ -88,14 +92,17 @@ a:hover {
     color: #234aa3;
     font-family: "Zen Kurenaido", serif;
     text-align: justify;
-    font-size: 35px;
+    font-size: 40px;
 }
 #ramen-tamago p {
     color: #234aa3;
     font-family: "Zen Kurenaido", serif;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+}
+.name-t {
+    padding-left: 10px;
 }
 
 #hirugao-ramen .menu-m {
@@ -108,13 +115,13 @@ a:hover {
     color: white;
     font-family: "Zen Kurenaido", serif;
     text-align:justify;
-    font-size: 35px;
+    font-size: 40px;
 }
 #hirugao-ramen p {
     color: white;
     font-family: "Zen Kurenaido", serif;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -128,13 +135,13 @@ a:hover {
     color: #234aa3;
     font-family: "Zen Kurenaido", serif;
     text-align: justify;
-    font-size: 35px;
+    font-size: 45px;
 }
 #soranoiro-nippon p {
     color: #234aa3;
     font-family: "Zen Kurenaido", serif;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -154,10 +161,14 @@ a:hover {
     width: 25%;
 }
 .img-t img {
-    width: 120%;
+    width: 125%;
     position: absolute;
-    left: 50px;
-    bottom: 30px;
+    left: 36px;
+    bottom: 60px;
+}
+
+.name-m {
+    padding-right: 160px;
 }
 .text-m {
     width: 60%;
@@ -166,9 +177,6 @@ a:hover {
 .img-m {
     position: relative;
     width: 25%;
-}
-.name-m {
-    padding-right: 160px;
 }
 .img-m img {
     width: 125%;
@@ -185,4 +193,22 @@ a:hover {
     position: absolute;
     left: 22px;
     bottom: 20px;
+}
+
+.name-b {
+    padding-left: 20px;
+}
+.img-b {
+    position: relative;
+    width: 25%;
+}
+.img-b img {
+    width: 120%;
+    position: absolute;
+    left: 700px;
+    bottom: -50px;
+}
+.text-b {
+    width: 65%;
+    padding: 10px 0;
 }
